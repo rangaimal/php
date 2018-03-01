@@ -7,7 +7,9 @@
 <?php 
 $mynumbers=array(12,12,45,67,45,32);?>
 
-Maximum number:<?php echo max($mynumbers);?>
+Maximum number:<?php echo max($mynumbers);?><br>
+Minimum number:<?php echo min($mynumbers);?><br>
+count:<?php echo count($mynumbers);?>
 
 
 
